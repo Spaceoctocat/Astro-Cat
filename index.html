@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ASTROCAT : Asteroid Prospector: NASA International Space Apps Challenge " />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <title>ASTROCAT</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>ASTROCAT by Spaceoctocat</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/Spaceoctocat/Astro-Cat">View on GitHub</a>
+    <div class="shell">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Spaceoctocat/Astro-Cat">View on GitHub</a>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>ASTROCAT</h1>
+            <h2>Asteroid Prospector: NASA International Space Apps Challenge </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-          <h1 id="project_title">ASTROCAT</h1>
-          <h2 id="project_tagline">Asteroid Prospector: NASA International Space Apps Challenge </h2>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Spaceoctocat/Astro-Cat/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Spaceoctocat/Astro-Cat/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Spaceoctocat/Astro-Cat/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Spaceoctocat/Astro-Cat/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <p>Asteroid Prospector is an educational and entertaining game! The game is designed to be suitable for players of all ages. Playing the game will involve simple gestures on a touch screen interface. The main character called, "AstroCat", is controlled by the user. The six stage of game can be accomplished in under an hour. The primary purpose of the game is to educate the audience about the planets in our solar system and the resource value of asteroids. </p>
 
 <p>The story begins when a NASA Astronomer pronounces a critical emergency situation! A 20 kilometre wide asteroid has been detected in the deep space network. The trajectory of the asteroid is prospected to intercept with Planet Earth. A collisional impact would result in devastation for all living organisms on Earth. At the present time, the asteroid is proceeding towards our solar system. To avert imminent catastrophe, the asteroid must be deflected.</p>
@@ -46,14 +61,19 @@ The original spacecraft has a simple streamlined structure to be aerodynamic and
 
 <p>Ultimately, the spacecraft will be well equipped to mine the killer asteroid. AstroCat intends on procuring the mineral resources to benefit humanity on Planet Earth. A hero’s welcome is planned for AstroCat upon returning to Earth.</p>
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">ASTROCAT maintained by <a href="https://github.com/Spaceoctocat">Spaceoctocat</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Spaceoctocat">Spaceoctocat</a> can be found on <a href="https://github.com/Spaceoctocat/Astro-Cat">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
 
               <script type="text/javascript">
@@ -66,7 +86,6 @@ The original spacecraft has a simple streamlined structure to be aerodynamic and
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
